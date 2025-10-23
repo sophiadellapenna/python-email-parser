@@ -1,0 +1,5 @@
+python-dateutil
+chardet
+beautifulsoup4
+mail-parser
+pandas

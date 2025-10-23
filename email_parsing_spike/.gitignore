@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+*.mbox
+*.olm
+*.pst
+*.csv
+
+# OS
+.DS_Store
