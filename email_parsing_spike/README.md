@@ -33,22 +33,23 @@ Typical data fields accessible from these libraries:
 <hr>
 
 ## How to Parse Email Files (High-Level Overview)
-### Example: Reading an '.mbox' file
+### Example: Reading an `.mbox` file
 ```python
 import mailbox
 
-#Open an .mbox file and read its contents
+# Open an .mbox file and read its contents
 mbox = mailbox.mbox('inbox.mbox')
 for message in mbox:
     print("From:", message['from'])
     print("Subject:", message['subject'])
-
+```
 <hr>
+
 
 ### To handle .olm Files, use: 
 pip install pyolm
 
-<hr> ```
+<hr> 
 
 ## Findings
 - `.mbox` parsing works well with the built-in `mailbox` + `email` libraries.
@@ -74,9 +75,7 @@ pip install pyolm
 <hr>
 
 ## Example of Working Command
-```bash
 python scripts/mbox_to_csv.py sample.mbox output.csv
-```
 
 <hr>
 
