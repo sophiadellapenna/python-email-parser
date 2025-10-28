@@ -33,12 +33,11 @@ Typical data fields accessible from these libraries:
 <hr>
 
 ## How to Parse Email Files (High-Level Overview)
+### Example: Reading an '.mbox' file
 ```python
 import mailbox
-```
-<hr>
 
-##Open an .mbox file and read its contents
+#Open an .mbox file and read its contents
 mbox = mailbox.mbox('inbox.mbox')
 for message in mbox:
     print("From:", message['from'])
@@ -46,7 +45,7 @@ for message in mbox:
 
 <hr>
 
-## To handle .olm Files, use: 
+### To handle .olm Files, use: 
 pip install pyolm
 
 <hr> ```
@@ -98,6 +97,7 @@ pip install -r requirements.txt
 ```bash
 python scripts/mbox_to_csv.py /path/to/input.mbox out.csv
 ```
+<hr>
 
 ## Notes to capture while you spike
 - Which libraries worked well and why
