@@ -106,4 +106,3 @@ python scripts/mbox_to_csv.py /path/to/input.mbox out.csv
 
 <hr>
 
-## This was generated with the help of ChatGPT
